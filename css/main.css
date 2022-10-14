@@ -32,3 +32,37 @@ nav a{
 nav a:hover{
     color: rgba(40, 39, 39, 0.59);
 }
+
+.section-1 {    
+    background-color: rgba(83, 82, 82, 0.706);
+    margin-top: 20px;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+
+}
+.seccion {
+display: flex;
+flex-direction: column;
+margin-left: 150px;
+margin-top: 100px;
+
+}
+
+.seccion p{
+   display: flex;
+    width: 40%;
+
+}
+.imagen {
+    display: flex;
+    width: 50;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 170px;
+
+}
+
+.seccion a {
+    display: flex;
+}
