@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 body{
-    font-family: sans-serif;
+    font-family: 'Righteous', cursive;
+    margin: 30px;
+    margin-left: ;
 }
 a{
     text-decoration: none;
@@ -11,7 +20,7 @@ header{
     height: 70px;
     background-color: white;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo{
@@ -20,7 +29,7 @@ header{
 }
 .logo img{
     height: 100px;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 23px;
 }
 
@@ -32,13 +41,14 @@ nav a{
 nav a:hover{
     color: rgba(40, 39, 39, 0.59);
 }
-
+/*SECCION 1*/
 .section-1 {    
     background-color: rgba(83, 82, 82, 0.706);
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100vw;
     height: 500px;
     display: flex;
+    border-radius: 10px;
 
 }
 .seccion {
@@ -46,6 +56,7 @@ display: flex;
 flex-direction: column;
 margin-left: 150px;
 margin-top: 100px;
+justify-content: space-around;
 
 }
 
@@ -59,10 +70,44 @@ margin-top: 100px;
     width: 50;
     height: 300px;
     margin-top: 100px;
-    margin-right: 170px;
+    margin-right: 100px;
 
 }
 
-.seccion a {
+.seccion button{
+
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(13, 13, 13);
+    margin-top: 0;
+}
+.seccion button a{
+    color: aliceblue;
+}
+
+.seccion button:hover{
+     background-color: aliceblue;
+}
+/*SECCION 2*/
+
+.container{
+    background-color: rgba(83, 82, 82, 0.706);
+    width: 100vw;
+    height: 360px;
     display: flex;
+    border-radius: 10px;
+}
+.seccion-2 {
+    display: flex;
+}
+.seccion-2 p{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
