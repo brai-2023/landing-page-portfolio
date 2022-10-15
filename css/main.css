@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body{
-    font-family: 'Righteous', cursive; 
+    font-family: 'Righteous', ; 
     background-image: url(../img/pexels-dana-tentis-370799.jpg)
 }
 
@@ -56,10 +56,14 @@ nav a:hover{
 .seccion {
 display: flex;
 flex-direction: column;
-margin-left: 100px;
-margin-top: 100px;
+margin-left: 300px;
+margin-top: 50px;
 justify-content: space-around;
 
+}
+.seccion h1{
+   font-size: 50px;
+    margin-left: 40px;
 }
 
 .seccion p{
@@ -69,9 +73,11 @@ justify-content: space-around;
 }
 .imagen {
     display: flex;
-    width: 50;
-    height: 300px;
-    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-left: auto;
     margin-right: 100px;
 
 }
@@ -89,14 +95,14 @@ justify-content: space-around;
 }
 
 .seccion button:hover{
-     background-color: aliceblue;
+     background-color: rgb(35, 35, 35);
 }
 /*SECCION 2*/
 
 .container{
     background-color: rgba(83, 82, 82, 0.706);
     width: 100vw;
-    height: 360px;
+    height: auto;
     display: flex;
     border-radius: 10px;
 }
@@ -104,7 +110,7 @@ justify-content: space-around;
     display: flex;
 }
 .seccion-2 p{
-   
+   font-size: 30px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
