@@ -26,16 +26,14 @@ header{
 
 .logo{
     display: flex;
-    
 }
 .logo img{
     height: 70px;
     align-items: flex-start;
-  
-
 }
 
 nav a{
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 10px;
     align-items: center;
@@ -44,76 +42,76 @@ nav a:hover{
     color: rgba(40, 39, 39, 0.59);
 }
 /*SECCION 1*/
-.section-1 {    
-    background-color: rgba(83, 82, 82, 0.706);
-    margin-top: 10px;
+#hero{
     width: 100vw;
-    height: 450px;
-    display: flex;
+    height: 50%;
+    background-color: rgba(83, 82, 82, 0.706);
     border-radius: 10px;
-
-}
-.seccion {
-display: flex;
-flex-direction: column;
-margin-left: 300px;
-margin-top: 50px;
-justify-content: space-around;
-
-}
-.seccion h1{
-   font-size: 50px;
-    margin-left: 40px;
-}
-
-.seccion p{
-   display: flex;
-    width: 40%;
-
-}
-.imagen {
+    margin-top: 10px;
     display: flex;
-    width: 300px;
-    height: 400px;
-    justify-content: flex-end;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: 100px;
-
-}
-
-.seccion button{
-     display: inline-block;
     justify-content: space-between;
-    border-radius: 10px;
-    width: 200px;
-    height: 40px;
-    background-color: rgb(13, 13, 13);
-}
-.seccion button a{
-    color: aliceblue;
+    align-items:center;
 }
 
-.seccion button:hover{
+.seccion-1 {
+    width: 50vw;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 1.5;  
+}
+.imagen{
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    width: 50vw;
+}
+.imagen img {
+    background-image: url(/img/imagenes-digitales.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.seccion-1 button{
+    font-size: 0.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgba(5, 106, 168, 0.633);
+    padding: 10px 20px;
+    color: rgb(202, 202, 202);
+}
+
+.seccion-1 button:hover{
      background-color: rgb(35, 35, 35);
 }
 /*SECCION 2*/
 
-.container{
+#descripcion{
     background-color: rgba(83, 82, 82, 0.706);
     width: 100vw;
-    height: auto;
-    display: flex;
+    height: 100%;
     border-radius: 10px;
 }
-.seccion-2 {
+#descripcion .container{
     display: flex;
+    width: 100vw;
+    height: 300px;
 }
+
+
 .seccion-2 p{
-   font-size: 30px;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 2.5em;
+    text-align: center;
 }
