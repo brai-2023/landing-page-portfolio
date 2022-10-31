@@ -4,22 +4,23 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 body{
-    font-family: 'Righteous', ; 
-    background-image: url(../img/pexels-dana-tentis-370799.jpg)
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/imagenabtracta.jpg); 
+    background-size: cover;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 header{
     display: flex;
     justify-content: space-between;
     width: 100vw;
     height: 80px;
-    background-color: rgba(83, 82, 82, 0.706);
+    background-color: rgba(0, 0, 0, 0.91);
     align-items: center;
     padding: 25px;
 }
@@ -39,18 +40,22 @@ nav a{
     align-items: center;
 }
 nav a:hover{
-    color: rgba(40, 39, 39, 0.59);
+    color: rgba(230, 230, 230, 0.59);
 }
 /*SECCION 1*/
 #hero{
     width: 100vw;
     height: 50%;
-    background-color: rgba(83, 82, 82, 0.706);
+    background-color: rgba(0, 0, 0, 0.605);
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items:center;
+    color: white;
+}
+#hero .seccion-1 h1{
+    text-shadow: 4px 4px 20px white;
 }
 
 .seccion-1 {
@@ -61,7 +66,8 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    line-height: 1.5;  
+    line-height: 1.5; 
+    margin: 10px; 
 }
 .imagen{
     align-items: center;
@@ -69,8 +75,9 @@ nav a:hover{
     padding: 50px;
     width: 50vw;
 }
+
 .imagen img {
-    background-image: url(/img/imagenes-digitales.jpg);
+    background-image: url(/img/predicciones-tecnologicas-diario-juridico-.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +86,7 @@ nav a:hover{
     height: 80%;
     border-radius: 10px;
     margin-left: 120px;
+    box-shadow: 1px 10px 25px;;
 }
 
 .seccion-1 button{
@@ -97,7 +105,6 @@ nav a:hover{
 /*SECCION 2*/
 
 #descripcion{
-    background-color: rgba(83, 82, 82, 0.706);
     width: 100vw;
     height: 100%;
     border-radius: 10px;
@@ -106,12 +113,92 @@ nav a:hover{
     display: flex;
     width: 100vw;
     height: 300px;
+    justify-content: center;
+    align-items: center;
 }
-
-
 .seccion-2 p{
     display: flex;
-    flex-direction: column;
     font-size: 2.5em;
     text-align: center;
+    color: white;
+}
+
+#Nosotros {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.605);
+    display: inline-block;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+#Nosotros h2{
+    margin-top: 20px;
+    font-size: 3rem;
+    color: white;
+}
+#Nosotros p{
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+#Nosotros .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80%;
+    margin: 5px;
+}
+#Nosotros .container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#Nosotros .container h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: white;
+}
+#Nosotros .beneficio1 {
+    line-height: 1.5;
+    justify-content: center;
+   
+}
+
+/* SECCION4 */
+
+#nuestrotrabajo {
+    color: aliceblue;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.605);
+    display: inline-block;
+    margin: 10px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+#nuestrotrabajo .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    margin: 10px 0;
+    line-height: 2;
+}
+#nuestrotrabajo h2{
+    font-size: 3rem;
+    margin: 20px;
+}
+#nuestrotrabajo img {
+width: 100px;
+   background-color: aliceblue;
+   margin: 20px;
+   border-radius: 50%;
 }
