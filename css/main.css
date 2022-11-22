@@ -238,31 +238,63 @@ width: 100px;
 #clientes {
     color: aliceblue;
     width: 100vw;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.605);
-    display: inline-block;
-    margin: 10px 0px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-}
-#clientes h2 {
-    color: aliceblue;
-    text-align: center;
-    font-size: 3rem;
-}
-#clientes .container{
+    min-height: 50vh;
     display: flex;
-   justify-content: space-around;
     align-items: center;
-    width: 100vw;
-    height: 100%;
-    margin: 10px 0;
-
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.605);
 }
-#clientes img {
-    width: 350px;
-    height: 200px;
+
+#clientes .img {
+    background-image: url(../img/proyecto1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
     cursor: pointer;
+
+}
+#clientes .img2 {
+    background-image: url(../img/proyecto2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+
+}
+#clientes .img3 {
+    background-image: url(../img/proyecto3.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+
+}
+#clientes .content {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.889);
+    opacity: 0;
+    transition: opacity 2s;
 }
 
+#clientes .img:hover .content{
+    opacity: 1;
+}
+#clientes .img2:hover .content{
+    opacity: 1;
+}
+#clientes .img3:hover .content{
+    opacity: 1;
+}
+
+.content h2 {
+    font-size: 2rem;
+}
+.content p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
